@@ -5,5 +5,5 @@ ON a.artista_id = art.artista_id
 LEFT JOIN SpotifyClone.Album as al
 ON a.artista_id = al.artista_id
 GROUP BY al.album_name, a.artista_name
-ORDER BY seguidores DESC, artista ASC, Album ASC
+ORDER BY seguidores DESC, artista ASC, album ASC
 ;
