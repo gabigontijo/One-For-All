@@ -104,12 +104,12 @@ DROP DATABASE IF EXISTS SpotifyClone;
 
   INSERT INTO SpotifyClone.Artista (artista_name)
   VALUES
-    ('Beyonce'),
+    ('Beyoncé'),
     ('Queen'),
     ('Elis Regina'),
-    ('Bacu Exu do Blues'),
+    ('Baco Exu do Blues'),
     ('Blind Guardian'),
-    ('Nina Simome');
+    ('Nina Simone');
 
   INSERT INTO SpotifyClone.Album (album_name, album_lancamento, artista_id)
   VALUES
@@ -119,8 +119,8 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('Falso Brilhante', '1998', 3),
     ('Vento de Maio', '2001', 3),
     ('QVVJFA?', '2003', 4),
-    ('Somewhere Far', '2007', 5),
-    ('I put A Spell On You', '2012', 6);
+    ('Somewhere Far Beyond', '2007', 5),
+    ('I Put A Spell On You', '2012', 6);
 
   INSERT INTO SpotifyClone.Cancoes (cancoes_name, artista_id, cancoes_duracao, album_id)
   VALUES
@@ -174,7 +174,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
     (2, 1 ),
     (3, 1 ),
     (1, 2 ),
-    (2, 2 ),
+    (3, 2 ),
     (2, 3 ),
     (4, 4 ),
     (5, 5 ),
