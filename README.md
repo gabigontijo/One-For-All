@@ -1,7 +1,7 @@
 <h1 align="center">:file_cabinet: One For All</h1>
 
 ## :memo: Description
-Creating queries with MySQL to practice learned content..
+Creating queries with MySQL to practice learned content.
 
 ## :books: Functionalities
 * <b>Queries</b>:MySQL frequently used queries.
